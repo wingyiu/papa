@@ -92,10 +92,10 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'crawl.pipelines.pipelines.VersionPipeline': 300,
-    'crawl.pipelines.pipelines.TimestampPipeline': 310,
-    'crawl.pipelines.pipelines.ModelPipeline': 320,
-    'crawl.pipelines.pipelines.MongoDBPipeline': 330,
+    'crawl.pipelines.VersionPipeline': 300,
+    'crawl.pipelines.TimestampPipeline': 310,
+    'crawl.pipelines.ModelPipeline': 320,
+    'crawl.pipelines.MongoDBPipeline': 330,
     # Store scraped item in redis for post-processing.
     # 'scrapy_redis.pipelines.RedisPipeline': 400,
 }
