@@ -1,6 +1,6 @@
-# source /root/venv/crawl/bin/activate
+source /root/venv/crawl/bin/activate
 
-# export SCRAPY_PROJECT=proxy
+export SCRAPY_PROJECT=proxy
 
 
 while true; do
